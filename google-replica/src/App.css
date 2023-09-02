@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 div {
     color: white;
 }
@@ -19,4 +23,25 @@ ul {
 }
 .ih1 {
     font-size: 170%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.logo h1 {
+    font-size: 90px;
+    font-weight: 500;
+}
+.search {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#search {
+    background-color: #202124;
+    border-radius: 5%;
+    border-style: solid;
+    width: 150%;
+    display: flex;
 }

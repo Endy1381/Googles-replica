@@ -17,6 +17,15 @@ function App() {
           </ul>
         </div>
       </div>
+
+      <div className="logo">
+        <h1>Google</h1>
+      </div>
+      <div className="search container">
+        <div className="row">
+          <input type="text" id="search" className='my-5' placeholder='search here' />
+        </div>
+      </div>
     </>
   )
 }
