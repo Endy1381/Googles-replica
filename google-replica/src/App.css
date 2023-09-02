@@ -14,15 +14,16 @@ ul {
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 4%;
-    margin: 5%;
+    padding: 1%;
+
+    margin-top: 0;
     margin-left: 0;
 }
 .ih2  {
-    font-size: 190%;
+    font-size: 230%;
 }
 .ih1 {
-    font-size: 170%;
+    font-size: 220%;
 }
 .logo {
     display: flex;
@@ -40,8 +41,9 @@ ul {
 }
 #search {
     background-color: #202124;
-    border-radius: 5%;
-    border-style: solid;
-    width: 150%;
+    
+}
+.search div {
     display: flex;
 }
+

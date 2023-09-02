@@ -9,21 +9,26 @@ function App() {
       <div className='header container-fluid'>
         <div className="row">
           <ul>
-            <li>Gmail</li>
+            <li>Cmail</li>
             <li>Images</li>
             <li className='ih1'><i className="bi bi-list"></i></li>
-            <li className='ih2'><i class="bi bi-person-circle"></i></li>
+            <li className='ih2'><i className="bi bi-person-circle"></i></li>
 
           </ul>
         </div>
       </div>
 
       <div className="logo">
-        <h1>Google</h1>
+        <h1>Cooleal</h1>
       </div>
-      <div className="search container">
+      <div className="search container-fluid">
         <div className="row">
-          <input type="text" id="search" className='my-5' placeholder='search here' />
+          <div className="col-9">
+            <input type="text" id="search" className=' form-control text-white' placeholder='search here'/>
+          </div>
+          <div className="col-3">
+            <button className='btn btn-outline-light btn-dark' ><i class="bi bi-search"></i></button>
+          </div>
         </div>
       </div>
     </>
