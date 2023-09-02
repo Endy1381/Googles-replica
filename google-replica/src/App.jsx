@@ -1,7 +1,6 @@
-import { useState } from 'react'
+
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
 
@@ -12,7 +11,9 @@ function App() {
           <ul>
             <li>Gmail</li>
             <li>Images</li>
-            <li><i className="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i></li>
+            <li className='ih1'><i className="bi bi-list"></i></li>
+            <li className='ih2'><i class="bi bi-person-circle"></i></li>
+
           </ul>
         </div>
       </div>

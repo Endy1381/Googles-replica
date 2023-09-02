@@ -1,0 +1,22 @@
+div {
+    color: white;
+}
+ul li {
+    list-style-type: none;
+    padding-left:3%;
+    font-size: 100%;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 4%;
+    margin: 5%;
+    margin-left: 0;
+}
+.ih2  {
+    font-size: 190%;
+}
+.ih1 {
+    font-size: 170%;
+}
