@@ -47,3 +47,11 @@ ul {
     display: flex;
 }
 
+.i1 {
+    display: flex;
+    justify-content: end;
+}
+.i2 {
+    display: flex;
+    justify-content: start;
+}

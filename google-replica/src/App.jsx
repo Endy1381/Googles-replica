@@ -23,11 +23,11 @@ function App() {
       </div>
       <div className="search container-fluid">
         <div className="row">
-          <div className="col-9">
+          <div className="col-9 i1">
             <input type="text" id="search" className=' form-control text-white' placeholder='search here'/>
           </div>
-          <div className="col-3">
-            <button className='btn btn-outline-light btn-dark' ><i class="bi bi-search"></i></button>
+          <div className="col-3 i2">
+            <button className='btn btn-outline-light btn-dark' ><i className="bi bi-search"></i></button>
           </div>
         </div>
       </div>
