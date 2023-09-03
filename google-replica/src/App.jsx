@@ -1,8 +1,20 @@
+import { useState } from 'react';
+
 
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const handleSearchChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+  const handleSearchSubmit = () => {
+    // Perform your search logic here using the searchQuery state
+    window.location.href = "https://www.google.com/search?q=" + searchQuery;
+
+  };
+  
 
   return (
     <>
@@ -24,10 +36,21 @@ function App() {
       <div className="search container-fluid">
         <div className="row">
           <div className="col-9 i1">
-            <input type="text" id="search" className=' form-control text-white' placeholder='search here'/>
+          <input
+            type="text"
+            id="search"
+            className="form-control text-white"
+            placeholder="search here"
+            value={searchQuery}
+            onChange={handleSearchChange}
+          />
+
           </div>
           <div className="col-3 i2">
-            <button className='btn btn-outline-light btn-dark' ><i className="bi bi-search"></i></button>
+          <button className="btn btn-outline-light btn-dark" onClick={handleSearchSubmit}>
+            <i className="bi bi-search"></i>
+          </button>
+
           </div>
         </div>
       </div>
