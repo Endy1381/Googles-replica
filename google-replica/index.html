@@ -8,6 +8,31 @@
   </head>
   <body style="background-image: url(./src/assets/background.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%; ">
     <div id="root"></div>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBTpQpMgDBYcd3paTEFtbOf6tYYh8qEkqA",
+        authDomain: "cooleal-search-engine.firebaseapp.com",
+        projectId: "cooleal-search-engine",
+        storageBucket: "cooleal-search-engine.appspot.com",
+        messagingSenderId: "37910183113",
+        appId: "1:37910183113:web:d0070be76549cce598a118",
+        measurementId: "G-V57HLHNBBB"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
