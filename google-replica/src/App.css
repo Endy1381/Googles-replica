@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
+@keyframes float {
+    0% {
+        padding-top: 0%;
+    }
+    50% {
+        padding-top: 1%;
+    }
+    100% {
+        padding-top: 0%;
+    }
+}
+
 div {
     color: white;
 }
@@ -29,8 +42,11 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 10%;
+    
 }
 .logo h1 {
+    animation: float 3s;
+    animation-iteration-count: infinite;
     font-size: 90px;
     font-weight: 500;
 }

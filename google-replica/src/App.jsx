@@ -9,7 +9,7 @@ function App() {
       <div className='header container-fluid'>
         <div className="row">
           <ul>
-            <li>Cmail</li>
+            <li>Co mail</li>
             <li>Images</li>
             <li className='ih1'><i className="bi bi-list"></i></li>
             <li className='ih2'><i className="bi bi-person-circle"></i></li>
